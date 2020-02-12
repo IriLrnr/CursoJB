@@ -1,0 +1,9 @@
+# É só colocar aqui o que queremos que seja ignorado
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Add more archieves here
+*.xlsx
+docs

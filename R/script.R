@@ -3,4 +3,3 @@
 table_format <- read.csv(file = "./data/data_processed.csv", sep = ",")
 
 table_format
- 

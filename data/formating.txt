@@ -1,0 +1,8 @@
+FORMATAÇÃO
+- Renomeei o arquivo (Ex04 -> data_raw)
+- Padronizei o conteúdo das células (removi texto)
+- Removi a formatação das tabelas
+- Uni as tabelas
+- Substitui setosa = 1, vesicolor = 2 e virginica = 3
+- Adicionei um cabeçalho para identificar as colunas
+- Exportei como csv

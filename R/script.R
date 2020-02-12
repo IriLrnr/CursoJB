@@ -16,7 +16,6 @@ table_format
 # primeira versão em 2020-02-12
 #-----------------------------------------------------------#
 
-?list.files()
 
 files.path <- list.files(path = "./data/cestes", pattern = ".csv", full.names = TRUE)
 
@@ -81,7 +80,7 @@ colnames(comm.df)
 
 # Vamos adicionar os sites à tabela comm.df
 # primeiro criamos a sequência
-seq.site <- rep(Sites, each = n.sp)
+seq.site <- rep(Sites, times = n.sp)
 # checando a dimensão
 length(seq.site)
 # adicionando ao objeto comm.df
@@ -101,10 +100,9 @@ head (envir.coord)
 
 comm.total <- merge(comm.traits, envir.coord, by = "Sites")
 head(comm.total)
+dim(comm.total)
 
 # Exportamos tudo em um arquivo final
 write.csv(x = comm.total, 
           file = "data/01_data_format_combined.csv", 
           row.names = FALSE)
-
-dim(comm.total)

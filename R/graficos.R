@@ -145,3 +145,5 @@ arrows(x0 = 1:5,
        y0 = d2$value + d2$sd,
        y1 = d2$value - d2$sd, angle = 90, length = 0.05, code = 3)
 
+
+  
